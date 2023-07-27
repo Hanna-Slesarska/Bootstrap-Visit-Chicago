@@ -1,0 +1,33 @@
+header {
+    position: relative;
+    
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    
+  }
+  #myVideo {
+    width: 100%;
+}
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    margin-top: -120px;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+.nav-link:hover {
+    background-color: #F6416C;
+    border-radius: 10px;
+}
+  
+  
